@@ -1,7 +1,7 @@
 # 🌐 Webappz SDK
 
 [![npm version](https://img.shields.io/npm/v/@webappz/webappz-sdk?color=%23E53935&style=for-the-badge)](https://www.npmjs.com/package/@webappz/webappz-sdk)
-[![Packagist](https://img.shields.io/packagist/v/webappz/sdk?style=for-the-badge)](https://packagist.org/packages/webappz/sdk)
+[![Packagist](https://img.shields.io/packagist/v/webappz-sdk/webappz?style=for-the-badge)](https://packagist.org/packages/webappz-sdk/webappz)
 [![License](https://img.shields.io/github/license/poebyte/webappz-sdk?style=for-the-badge)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Supported-%23007ACC?style=for-the-badge)](https://www.typescriptlang.org/)
 
