@@ -28,3 +28,9 @@ OR
 ```bash
 yarn add @webappz/webappz-sdk
 ```
+
+### **2. Composer SDK**
+#### Installation
+```bash
+composer require webappz-sdk/webappz
+```
