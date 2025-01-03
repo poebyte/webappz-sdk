@@ -1,0 +1,21 @@
+{
+  "name": "webappz/webappz-sdk",
+  "description": "WebAppz SDK for interacting with the WebAppz API.",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WebAppz\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "webappz",
+      "email": "apple41204@gmail.com"
+    }
+  ],
+  "license": "MIT"
+}
