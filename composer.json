@@ -8,12 +8,12 @@
   },
   "autoload": {
     "psr-4": {
-      "WebAppz\\": "src/"
+      "WebAppz\\": "php-sdk/src/"
     }
   },
   "authors": [
     {
-      "name": "webappz",
+      "name": "poebyte",
       "email": "apple41204@gmail.com"
     }
   ],
