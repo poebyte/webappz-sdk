@@ -1,5 +1,5 @@
 {
-  "name": "webappz/webappz-sdk",
+  "name": "webappz-sdk/webappz",
   "description": "WebAppz SDK for interacting with the WebAppz API.",
   "type": "library",
   "require": {
