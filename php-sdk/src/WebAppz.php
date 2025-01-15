@@ -27,9 +27,9 @@ class WebAppz {
         ]);
     }
 
-    public function setWebhook(string $keyId, string $webhookUrl): array {
+    public function setupWebhook(string $keyId, string $webhookUrl): array {
         try {
-            $response = $this->client->post("/api/keys/{$keyId}/setWebhook", [
+            $response = $this->client->post("/api/keys/{$keyId}/setupWebhook", [
                 'json' => [
                     'webhook_url' => $webhookUrl,
                 ],

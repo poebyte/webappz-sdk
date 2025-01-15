@@ -26,8 +26,8 @@ export class WebAppz {
         });
     }
 
-    async setWebhook(keyId: string, webhookUrl: string): Promise<WebhookResponse> {
-        const response = await this.client.post(`/api/keys/${keyId}/setWebhook`, {
+    async setupWebhook(keyId: string, webhookUrl: string): Promise<WebhookResponse> {
+        const response = await this.client.post(`/api/keys/${keyId}/setupWebhook`, {
             webhook_url: webhookUrl,
         });
         return response.data;

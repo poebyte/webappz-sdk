@@ -43,7 +43,7 @@ $client = new WebAppz('YOUR_API_KEY');
 
 // Setting up a webhook
 try {
-    $response = $client->setWebhook('keyId', 'https://your-webhook-url.com');
+    $response = $client->setupWebhook('keyId', 'https://your-webhook-url.com');
     echo 'Webhook setup: ' . $response['message'];
 } catch (Exception $e) {
     echo 'Error setting up webhook: ' . $e->getMessage();

@@ -26,13 +26,13 @@
 Using npm:
 
 ```bash
-npm install webappz-sdk
+npm install @webappz/webappz-sdk
 ```
 
 Using yarn:
 
 ```bash
-yarn add webappz-sdk
+yarn add @webappz/webappz-sdk
 ```
 
 ---
